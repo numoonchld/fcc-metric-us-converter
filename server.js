@@ -36,8 +36,7 @@ app.route('/hello')
 
 // You will add any security features to server.js
 
-
-// 1. It still has limited support.
+// 1. Don't Sniff Mimetype:
 app.use(helmet.noSniff());
 
 // 2. It still has limited support.
